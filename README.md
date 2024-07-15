@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+starter kit
+https://guides.rubyonrails.org/getting_started.html
+
+Command List
+$ rails new friends -> create new friends web application
+$ rails g home index -> create new page
+$ rails s -> start rails
+$ rails g scaffold friend first_name:string last_name:string phone:string twitter:string -> create models (table, column)
+$ rails db:migrate -> create schema from models
